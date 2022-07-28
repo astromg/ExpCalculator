@@ -62,8 +62,8 @@ class TelInstrument():
           coe_norm = norm.cdf(coe_sigma)-norm.cdf(-1*coe_sigma) 
           self.centrPixADU = self.backgroundPix_ADU + coe_norm * self.star_ADU
           
-          print(self.StN)
-          print(self.centrPixADU)
+          print("S/N:", self.StN)
+          print("central pixel ADU: ", self.centrPixADU)
           
 DibiImg = TelInstrument()
 DibiImg.calc()
