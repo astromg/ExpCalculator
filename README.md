@@ -4,6 +4,11 @@ Exposure Time Calculator\
 *Marek Gorski*\
 *28.07.2022*  
 
+**ToDo:**
+* passband efficiency
+* other bands (I,J,H,K)
+
+
 **Reguirements:** *python3,  numpy, scipy*  
 
 ### Calculations:
